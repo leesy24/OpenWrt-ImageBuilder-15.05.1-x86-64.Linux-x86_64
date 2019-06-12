@@ -120,7 +120,7 @@ change_freq() {
 rm -f /tmp/.force_Roaming
 
 [ -z "$USE_PARPROUTED" ] && USE_PARPROUTED="N"
-[ $USE_PARPROUTED = "Y" ] && sysctl -wq net.ipv4.conf.all.proxy_arp=0 || sysctl -wq net.ipv4.conf.all.proxy_arp=1
+#[ $USE_PARPROUTED = "Y" ] && sysctl -wq net.ipv4.conf.all.proxy_arp=0 || sysctl -wq net.ipv4.conf.all.proxy_arp=1
 
 #sleep 1
 
