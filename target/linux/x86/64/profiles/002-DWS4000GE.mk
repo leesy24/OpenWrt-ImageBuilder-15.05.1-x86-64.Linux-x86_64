@@ -63,8 +63,8 @@ define Profile/DWS4000GE
 		uhttpd uhttpd-mod-ubus \
 		usbreset usbutils \
 		-wpad-mini wpad
-	FILES_COPY:=files/DWS4000GE/copy/.
-	FILES_REMOVE:=files/DWS4000GE/remove.lst
+	FILES_COPY:=files/DWS4000/copy/.
+	FILES_REMOVE:=files/DWS4000/remove.lst
 	SERIAL_BAUDRATE:=38400
 endef
 
